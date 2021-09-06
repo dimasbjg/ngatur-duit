@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:zemi/views/screens/mainScreen.dart';
+import 'package:zemi/screens/MainScreen.dart';
+
 
 void main() {
   runApp(MyApp());
