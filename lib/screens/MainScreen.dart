@@ -20,6 +20,31 @@ class _MainScreenState extends State<MainScreen> {
         brightness: Brightness.light,
       ),
       body: Container(
+        width: double.infinity,
+        height: double.infinity,
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+              Container(
+                height: 100,
+                margin: EdgeInsets.all(10),
+                color: Colors.red,
+              ),
+              Container(
+                height: 100,
+                margin: EdgeInsets.all(10),
+                color: Colors.yellow,
+              ),
+              Container(
+                height: 100,
+                margin: EdgeInsets.all(10),
+                color: Colors.green,
+              )
+            ],
+          ),
+        ),
       ),
     );
   }
